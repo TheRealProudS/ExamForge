@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
-        <!-- Result Hero Card -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +29,6 @@
                 android:padding="28dp"
                 android:gravity="center">
 
-                <!-- Score Circle -->
                 <TextView
                     android:id="@+id/tv_score_percent"
                     android:layout_width="120dp"
@@ -42,7 +40,6 @@
                     android:textColor="@color/brand_primary"
                     android:background="@drawable/bg_score_circle" />
 
-                <!-- Pass/Fail Status -->
                 <TextView
                     android:id="@+id/tv_result_status"
                     android:layout_width="wrap_content"
@@ -53,7 +50,6 @@
                     android:textColor="@color/color_correct"
                     android:layout_marginTop="16dp" />
 
-                <!-- Stats Row -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -140,7 +136,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Action Buttons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

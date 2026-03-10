@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
-        <!-- Header -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +38,6 @@
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 
-        <!-- Section Title -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +49,6 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="12dp" />
 
-        <!-- AP1 Card -->
         <androidx.cardview.widget.CardView
             android:id="@+id/card_ap1"
             android:layout_width="match_parent"
@@ -152,7 +149,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- AP2 SI Card -->
         <androidx.cardview.widget.CardView
             android:id="@+id/card_ap2_si"
             android:layout_width="match_parent"
@@ -235,7 +231,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- AP2 AE Card -->
         <androidx.cardview.widget.CardView
             android:id="@+id/card_ap2_ae"
             android:layout_width="match_parent"
@@ -318,7 +313,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Info Box -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

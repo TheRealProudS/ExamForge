@@ -15,7 +15,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- LF Number + Fachrichtung Badge Row -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,7 +22,6 @@
             android:gravity="center_vertical"
             android:layout_marginBottom="10dp">
 
-            <!-- LF Number Circle -->
             <TextView
                 android:id="@+id/tv_lf_number"
                 android:layout_width="40dp"
@@ -42,7 +40,6 @@
                 android:orientation="vertical"
                 android:layout_marginStart="12dp">
 
-                <!-- Fachrichtung Chip -->
                 <TextView
                     android:id="@+id/tv_fachrichtung_badge"
                     android:layout_width="wrap_content"
@@ -57,7 +54,6 @@
                     android:paddingBottom="2dp" />
             </LinearLayout>
 
-            <!-- Question Count -->
             <TextView
                 android:id="@+id/tv_question_count"
                 android:layout_width="wrap_content"
@@ -67,7 +63,6 @@
                 android:textColor="@color/text_secondary" />
         </LinearLayout>
 
-        <!-- Title -->
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
@@ -79,7 +74,6 @@
             android:maxLines="2"
             android:ellipsize="end" />
 
-        <!-- Description -->
         <TextView
             android:id="@+id/tv_description"
             android:layout_width="match_parent"
@@ -91,7 +85,6 @@
             android:maxLines="2"
             android:ellipsize="end" />
 
-        <!-- Progress Bar -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -4,7 +4,7 @@
             "outputFile": "de.sysitprep.app-mergeReleaseResources-58:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\czenk\\.gradle\\caches\\transforms-4\\2cc5a939f6bd3b220044c44ee37b9d9c\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Student\\.gradle\\caches\\transforms-4\\2cc5a939f6bd3b220044c44ee37b9d9c\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

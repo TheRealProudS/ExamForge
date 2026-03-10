@@ -1,4 +1,4 @@
-#Mon Mar 09 20:44:07 CET 2026
-base.0=C\:\\Users\\czenk\\Desktop\\IT Lernapp\\ExamForge\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Tue Mar 10 09:07:47 CET 2026
+base.0=C\:\\Users\\Student\\Desktop\\ExamForge\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

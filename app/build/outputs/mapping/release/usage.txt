@@ -22643,6 +22643,8 @@ de.sysitprep.app.data.database.QuestionDao:
 de.sysitprep.app.data.database.QuestionDao_Impl$10
 de.sysitprep.app.data.database.QuestionDao_Impl$15
 de.sysitprep.app.data.database.QuestionDao_Impl$17
+de.sysitprep.app.data.database.QuestionDao_Impl$18
+de.sysitprep.app.data.database.QuestionDao_Impl$19
 de.sysitprep.app.data.database.QuestionDao_Impl$6
 de.sysitprep.app.data.database.QuestionDao_Impl$7
 de.sysitprep.app.data.database.QuestionDao_Impl:
@@ -22692,6 +22694,7 @@ de.sysitprep.app.data.repository.QuestionRepository$getPreferences$$inlined$map$
 de.sysitprep.app.data.repository.QuestionRepository$getTotalQuestionCount$2
 de.sysitprep.app.data.repository.QuestionRepository$getTotalStudyTimeSeconds$2
 de.sysitprep.app.data.repository.QuestionRepository:
+    private static final java.lang.String SEED_VERSION
     public final java.lang.Object getCompletedSessionCount(kotlin.coroutines.Continuation)
     public static synthetic java.lang.Object getQuestionsForExam$default(de.sysitprep.app.data.repository.QuestionRepository,de.sysitprep.app.data.model.ExamType,de.sysitprep.app.data.model.Fachrichtung,int,kotlin.coroutines.Continuation,int,java.lang.Object)
     public static synthetic java.lang.Object getQuestionsForLernfeld$default(de.sysitprep.app.data.repository.QuestionRepository,int,de.sysitprep.app.data.model.Fachrichtung,int,kotlin.coroutines.Continuation,int,java.lang.Object)
@@ -30766,7 +30769,23 @@ androidx.appcompat.widget.AppCompatCheckedTextViewHelper:
     public static void setSupportCheckMarkTintList()
     public static void setSupportCheckMarkTintMode()
 androidx.appcompat.widget.AppCompatCompoundButtonHelper
-androidx.appcompat.widget.AppCompatDrawableManager$1
+androidx.appcompat.widget.AppCompatDrawableManager$1:
+    public final java.lang.Object countAll()
+    public static android.content.res.ColorStateList createBorderlessButtonColorStateList()
+    public static android.content.res.ColorStateList createColoredButtonColorStateList()
+    public static android.content.res.ColorStateList createDefaultButtonColorStateList()
+    public static android.graphics.drawable.Drawable createDrawableFor()
+    public static android.content.res.ColorStateList createSwitchThumbColorStateList()
+    public final kotlinx.coroutines.flow.Flow getBookmarked()
+    public final java.lang.Object getByExamType()
+    public final java.lang.Object getById()
+    public final java.lang.Object getByLernfeldAndFachrichtung()
+    public final java.lang.Object getRandomByFachrichtung()
+    public static android.graphics.PorterDuff$Mode getTintModeForDrawableRes()
+    public final java.lang.Object insertAll()
+    public final java.lang.Object setBookmark()
+    public static boolean tintDrawable()
+    public static boolean tintDrawableUsingColorFilter()
 androidx.appcompat.widget.AppCompatDrawableManager:
     public final synchronized android.graphics.drawable.Drawable getDrawable()
     public static synchronized android.graphics.PorterDuffColorFilter getPorterDuffColorFilter(int,android.graphics.PorterDuff$Mode)
@@ -39960,7 +39979,15 @@ de.sysitprep.app.data.database.Converters
 de.sysitprep.app.data.database.LernfeldProgressRaw:
     public static int getCorrectCount()
     public static int getTotalAnswered()
-de.sysitprep.app.data.database.QuestionDao
+de.sysitprep.app.data.database.QuestionDao:
+    public abstract java.lang.Object countAll()
+    public abstract kotlinx.coroutines.flow.Flow getBookmarked()
+    public abstract java.lang.Object getByExamType()
+    public abstract java.lang.Object getById()
+    public abstract java.lang.Object getByLernfeldAndFachrichtung()
+    public abstract java.lang.Object getRandomByFachrichtung()
+    public abstract java.lang.Object insertAll()
+    public abstract java.lang.Object setBookmark()
 de.sysitprep.app.data.database.QuestionDao_Impl$11:
     public static de.sysitprep.app.data.model.Question call()
     public static java.lang.Integer call()
@@ -39977,23 +40004,7 @@ de.sysitprep.app.data.database.QuestionDao_Impl$4
 de.sysitprep.app.data.database.QuestionDao_Impl$8:
     public static kotlin.Unit call()
 de.sysitprep.app.data.database.QuestionDao_Impl$9
-de.sysitprep.app.data.database.QuestionDao_Impl:
-    public static java.lang.Object countAll()
-    public static android.content.res.ColorStateList createBorderlessButtonColorStateList()
-    public static android.content.res.ColorStateList createColoredButtonColorStateList()
-    public static android.content.res.ColorStateList createDefaultButtonColorStateList()
-    public static android.graphics.drawable.Drawable createDrawableFor()
-    public static android.content.res.ColorStateList createSwitchThumbColorStateList()
-    public static kotlinx.coroutines.flow.Flow getBookmarked()
-    public static java.lang.Object getByExamType()
-    public static java.lang.Object getById()
-    public static java.lang.Object getByLernfeldAndFachrichtung()
-    public static java.lang.Object getRandomByFachrichtung()
-    public static android.graphics.PorterDuff$Mode getTintModeForDrawableRes()
-    public static java.lang.Object insertAll()
-    public static java.lang.Object setBookmark()
-    public static boolean tintDrawable()
-    public static boolean tintDrawableUsingColorFilter()
+de.sysitprep.app.data.database.QuestionDao_Impl
 de.sysitprep.app.data.database.SessionDao
 de.sysitprep.app.data.database.SessionDao_Impl$11:
     public static java.lang.Long call()
@@ -40045,10 +40056,12 @@ de.sysitprep.app.data.repository.AppPreferences:
     public static de.sysitprep.app.data.model.Fachrichtung getFachrichtung()
     public static boolean isDarkMode()
     public static boolean isSoundEnabled()
+de.sysitprep.app.data.repository.QuestionRepository$Companion
 de.sysitprep.app.data.repository.QuestionRepository$PrefKeys:
     public static final de.sysitprep.app.data.repository.QuestionRepository$PrefKeys INSTANCE
     public static androidx.datastore.preferences.core.Preferences$Key getDARK_MODE()
     public static androidx.datastore.preferences.core.Preferences$Key getFACHRICHTUNG()
+    public static androidx.datastore.preferences.core.Preferences$Key getSEED_VERSION()
     public static androidx.datastore.preferences.core.Preferences$Key getSOUND_ENABLED()
 de.sysitprep.app.data.repository.QuestionRepository$finishSession$2:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
@@ -40086,6 +40099,9 @@ de.sysitprep.app.data.repository.QuestionRepository$saveFachrichtung$2:
 de.sysitprep.app.data.repository.QuestionRepository$saveSoundEnabled$2:
     public int label
     public final java.lang.Object invoke$11()
+de.sysitprep.app.data.repository.QuestionRepository$seedIfEmpty$2$1:
+    public int label
+    public final java.lang.Object invoke$11()
 de.sysitprep.app.data.repository.QuestionRepository$seedIfEmpty$2:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 de.sysitprep.app.data.repository.QuestionRepository$setBookmark$2:
@@ -40093,7 +40109,9 @@ de.sysitprep.app.data.repository.QuestionRepository$setBookmark$2:
 de.sysitprep.app.data.repository.QuestionRepository$startSession$2:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 de.sysitprep.app.data.repository.QuestionRepository:
+    public static final androidx.savedstate.SavedStateRegistryController$Companion Companion
     public final de.sysitprep.app.data.database.AppDatabase db
+    static void <clinit>()
     public static java.lang.Object finishSession()
     public static java.lang.Object getAnswersForSession()
     public static kotlinx.coroutines.flow.Flow getBookmarkedQuestions()

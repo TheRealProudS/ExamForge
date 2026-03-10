@@ -47,6 +47,8 @@ public final class QuestionDao_Impl implements QuestionDao {
 
   private final EntityDeletionOrUpdateAdapter<Question> __updateAdapterOfQuestion;
 
+  private final SharedSQLiteStatement __preparedStmtOfDeleteAll;
+
   private final SharedSQLiteStatement __preparedStmtOfSetBookmark;
 
   public QuestionDao_Impl(@NonNull final RoomDatabase __db) {
@@ -157,6 +159,14 @@ public final class QuestionDao_Impl implements QuestionDao {
         statement.bindLong(15, entity.getId());
       }
     };
+    this.__preparedStmtOfDeleteAll = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "DELETE FROM questions";
+        return _query;
+      }
+    };
     this.__preparedStmtOfSetBookmark = new SharedSQLiteStatement(__db) {
       @Override
       @NonNull
@@ -217,6 +227,29 @@ public final class QuestionDao_Impl implements QuestionDao {
           return Unit.INSTANCE;
         } finally {
           __db.endTransaction();
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteAll(final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAll.acquire();
+        try {
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
+        } finally {
+          __preparedStmtOfDeleteAll.release(_stmt);
         }
       }
     }, $completion);

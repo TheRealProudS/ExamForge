@@ -4,7 +4,7 @@
             "outputFile": "de.sysitprep.app-mergeReleaseResources-58:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\czenk\\.gradle\\caches\\transforms-4\\963eabb2e035eedc30a1122faf0df28d\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Student\\.gradle\\caches\\transforms-4\\963eabb2e035eedc30a1122faf0df28d\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
