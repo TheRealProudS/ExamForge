@@ -5,9 +5,6 @@ import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import de.sysitprep.app.data.database.Converters
 
-/**
- * Tracks a user's answer to a specific question in a session.
- */
 @Entity(tableName = "user_answers")
 @TypeConverters(Converters::class)
 data class UserAnswer(
@@ -21,9 +18,6 @@ data class UserAnswer(
     val answeredAt: Long = System.currentTimeMillis()
 )
 
-/**
- * A learning or exam session.
- */
 @Entity(tableName = "sessions")
 @TypeConverters(Converters::class)
 data class Session(

@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:background="@color/surface_secondary">
 
-    <!-- Progress Header -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +17,6 @@
         android:paddingTop="16dp"
         android:paddingBottom="16dp">
 
-        <!-- Top Row: Back + Question Counter + Timer + Bookmark -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +44,6 @@
                 android:textStyle="bold"
                 android:textColor="@color/text_primary" />
 
-            <!-- Timer (only visible in exam mode) -->
             <TextView
                 android:id="@+id/tv_timer"
                 android:layout_width="wrap_content"
@@ -68,7 +65,6 @@
                 android:contentDescription="Lesezeichen" />
         </LinearLayout>
 
-        <!-- Linear Progress Bar -->
         <ProgressBar
             android:id="@+id/quiz_progress_bar"
             style="?android:attr/progressBarStyleHorizontal"
@@ -78,7 +74,6 @@
             android:progress="5"
             android:progressDrawable="@drawable/progress_bar_quiz" />
 
-        <!-- Difficulty Badge Row -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,7 +125,6 @@
 
     </LinearLayout>
 
-    <!-- Question + Answers ScrollView -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -146,7 +140,6 @@
             android:paddingTop="20dp"
             android:paddingBottom="16dp">
 
-            <!-- Question Text -->
             <TextView
                 android:id="@+id/tv_question_text"
                 android:layout_width="match_parent"
@@ -157,7 +150,6 @@
                 android:lineSpacingMultiplier="1.4"
                 android:layout_marginBottom="24dp" />
 
-            <!-- Answer Options Container -->
             <LinearLayout
                 android:id="@+id/answer_options_container"
                 android:layout_width="match_parent"
@@ -165,7 +157,6 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="16dp" />
 
-            <!-- Explanation Card (hidden until answered) -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_explanation"
                 android:layout_width="match_parent"
@@ -204,7 +195,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Bottom Action Bar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

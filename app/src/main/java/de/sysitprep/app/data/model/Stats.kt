@@ -1,8 +1,6 @@
 package de.sysitprep.app.data.model
 
-/**
- * Statistics aggregated from user answers.
- */
+
 data class UserStats(
     val totalAnswered: Int = 0,
     val correctAnswers: Int = 0,
@@ -15,9 +13,7 @@ data class UserStats(
     val accuracyPercent: Int get() = (accuracy * 100).toInt()
 }
 
-/**
- * Per-Lernfeld progress summary.
- */
+
 data class LernfeldProgress(
     val lernfeld: Int,
     val title: String = "Lernfeld $lernfeld",
@@ -27,9 +23,6 @@ data class LernfeldProgress(
     val progressPercent: Int get() = if (totalQuestions == 0) 0 else (correctAnswers.toFloat() / totalQuestions * 100).toInt()
 }
 
-/**
- * Result returned after completing a quiz session.
- */
 data class QuizResult(
     val sessionId: Long,
     val totalQuestions: Int,

@@ -22,11 +22,9 @@ class SplashActivity : AppCompatActivity() {
         val tvTagline = findViewById<TextView>(R.id.tv_tagline)
         val rootLayout = findViewById<ConstraintLayout>(R.id.splash_root)
 
-        // Start logo entrance animation
         val logoAnim = AnimationUtils.loadAnimation(this, R.anim.splash_logo_in)
         ivLogo.startAnimation(logoAnim)
 
-        // Tagline entrance animation
         tvTagline.startAnimation(AnimationUtils.loadAnimation(this, R.anim.splash_text_in))
 
         lifecycleScope.launch {

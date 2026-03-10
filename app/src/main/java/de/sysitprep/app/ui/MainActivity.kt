@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController
 
-    // Fragments that show the bottom navigation bar
     private val bottomNavDestinations = setOf(
         R.id.homeFragment,
         R.id.lernfelderFragment,
@@ -34,7 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNav.setupWithNavController(navController)
 
-        // Show/hide bottom nav based on destination
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id in bottomNavDestinations) {
                 binding.bottomNav.visibility = View.VISIBLE

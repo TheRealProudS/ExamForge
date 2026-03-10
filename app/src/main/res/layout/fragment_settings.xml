@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:background="@color/surface_secondary">
 
-    <!-- Header -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +42,6 @@
             android:orientation="vertical"
             android:paddingBottom="32dp">
 
-            <!-- Section label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -56,7 +54,6 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="8dp" />
 
-            <!-- Fachrichtung Card -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,7 +92,6 @@
                             android:textColor="@color/text_secondary" />
                     </LinearLayout>
 
-                    <!-- SI Option -->
                     <LinearLayout
                         android:id="@+id/option_si"
                         android:layout_width="match_parent"
@@ -140,7 +136,6 @@
                             android:checked="true" />
                     </LinearLayout>
 
-                    <!-- AE Option -->
                     <LinearLayout
                         android:id="@+id/option_ae"
                         android:layout_width="match_parent"
@@ -187,7 +182,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Section label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -200,7 +194,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="8dp" />
 
-            <!-- Appearance Card -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -218,7 +211,6 @@
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp">
 
-                    <!-- Dark Mode -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -259,7 +251,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp" />
 
-                    <!-- Sound -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -300,7 +291,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Section label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -313,7 +303,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="8dp" />
 
-            <!-- Danger Zone Card -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -375,7 +364,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Section label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -388,7 +376,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="8dp" />
 
-            <!-- Legal Card -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -450,7 +437,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Version Info -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

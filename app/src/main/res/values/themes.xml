@@ -2,25 +2,18 @@
 <resources>
 
     <style name="Theme.ExamForge" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary Brand Color -->
         <item name="colorPrimary">@color/brand_primary</item>
         <item name="colorPrimaryDark">@color/brand_primary_dark</item>
         <item name="colorPrimaryContainer">@color/surface_overlay</item>
         <item name="colorOnPrimary">@color/text_on_primary</item>
         <item name="colorSecondary">@color/brand_secondary</item>
         <item name="colorTertiary">@color/brand_accent</item>
-
-        <!-- Surface Colors -->
         <item name="colorSurface">@color/surface_primary</item>
         <item name="colorSurfaceVariant">@color/surface_secondary</item>
         <item name="android:colorBackground">@color/surface_secondary</item>
-
-        <!-- Status Bar transparent -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@color/surface_primary</item>
         <item name="android:windowLightStatusBar">true</item>
-
-        <!-- Typography -->
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
@@ -32,7 +25,6 @@
         <item name="android:navigationBarColor">@color/brand_primary</item>
     </style>
 
-    <!-- Card Styles -->
     <style name="CardStyle.Primary" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
@@ -45,7 +37,6 @@
         <item name="cardBackgroundColor">@color/surface_card</item>
     </style>
 
-    <!-- Button Styles -->
     <style name="ButtonStyle.Primary" parent="Widget.Material3.Button">
         <item name="cornerRadius">12dp</item>
         <item name="android:textSize">16sp</item>
@@ -61,7 +52,6 @@
         <item name="android:paddingBottom">14dp</item>
     </style>
 
-    <!-- Text Styles -->
     <style name="TextStyle.H1" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">28sp</item>
@@ -90,7 +80,6 @@
         <item name="android:textSize">12sp</item>
     </style>
 
-    <!-- Answer Option Button (Quiz) -->
     <style name="AnswerOptionStyle" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">12dp</item>
         <item name="android:textSize">15sp</item>
@@ -121,7 +110,6 @@
         <item name="android:textColor">@color/brand_primary</item>
     </style>
 
-    <!-- Bottom Navigation -->
     <style name="BottomNavStyle" parent="Widget.Material3.BottomNavigationView">
         <item name="itemTextColor">@drawable/nav_item_color</item>
         <item name="itemIconTint">@drawable/nav_item_color</item>

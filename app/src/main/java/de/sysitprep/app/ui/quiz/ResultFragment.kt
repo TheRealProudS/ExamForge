@@ -69,13 +69,11 @@ class ResultFragment : Fragment() {
                 putString("fachrichtung", args.getString("fachrichtung", "SI"))
                 putString("examType", args.getString("examType", "AP1"))
             }
-            // Pop resultFragment + finished quizFragment, then start a fresh quiz
             findNavController().popBackStack(R.id.quizFragment, true)
             findNavController().navigate(R.id.quizFragment, quizArgs)
         }
 
         binding.btnReviewAnswers.setOnClickListener {
-            // Future: navigate to review screen
             findNavController().navigate(R.id.homeFragment)
         }
     }

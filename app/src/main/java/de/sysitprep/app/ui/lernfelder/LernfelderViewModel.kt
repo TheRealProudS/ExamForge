@@ -24,7 +24,6 @@ class LernfelderViewModel(application: Application) : AndroidViewModel(applicati
 
     init {
         viewModelScope.launch {
-            // Wait for seeding to complete before loading question counts
             app.seedingComplete.first { it }
             loadLernfelder(currentFachrichtung)
         }

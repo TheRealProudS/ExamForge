@@ -126,7 +126,6 @@ open class QuizFragment : Fragment() {
                         btn.setTextColor(ContextCompat.getColor(requireContext(), R.color.text_primary))
                     }
                 }
-                // Enable check button only if something selected
                 binding.btnCheckNext.isEnabled = selected.isNotEmpty()
             }
         }
@@ -166,14 +165,12 @@ open class QuizFragment : Fragment() {
             }
         )
 
-        // Show multiple-choice hint
         if (question.correctAnswerIndices.size > 1) {
             binding.tvMultipleChoiceHint.visibility = View.VISIBLE
         } else {
             binding.tvMultipleChoiceHint.visibility = View.GONE
         }
 
-        // Build answer option buttons dynamically
         binding.answerOptionsContainer.removeAllViews()
         optionButtons.clear()
         binding.btnCheckNext.isEnabled = false
@@ -205,7 +202,6 @@ open class QuizFragment : Fragment() {
             binding.answerOptionsContainer.addView(btn)
         }
 
-        // Reset explanation
         binding.cardExplanation.visibility = View.GONE
         binding.btnCheckNext.text = getString(R.string.quiz_check_answer)
     }
@@ -219,19 +215,16 @@ open class QuizFragment : Fragment() {
             btn.isEnabled = false
             when {
                 index in correctIndices && index in selectedIndices -> {
-                    // Correct and selected
                     btn.setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.color_correct_light))
                     btn.setStrokeColorResource(R.color.color_correct)
                     btn.setTextColor(ContextCompat.getColor(requireContext(), R.color.color_correct))
                 }
                 index in correctIndices -> {
-                    // Correct but not selected — show it
                     btn.setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.color_correct_light))
                     btn.setStrokeColorResource(R.color.color_correct)
                     btn.setTextColor(ContextCompat.getColor(requireContext(), R.color.color_correct))
                 }
                 index in selectedIndices -> {
-                    // Wrong and selected
                     btn.setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.color_wrong_light))
                     btn.setStrokeColorResource(R.color.color_wrong)
                     btn.setTextColor(ContextCompat.getColor(requireContext(), R.color.color_wrong))

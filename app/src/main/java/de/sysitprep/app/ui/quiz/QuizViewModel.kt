@@ -16,8 +16,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repo = (application as ExamForgeApp).repository
 
-    // ── State ─────────────────────────────────────────────────────────────────
-
     private val _questions = MutableLiveData<List<Question>>()
     val questions: LiveData<List<Question>> = _questions
 
@@ -42,7 +40,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
     private val _sessionId = MutableLiveData<Long>(-1)
     val sessionId: LiveData<Long> = _sessionId
 
-    // For exam simulation: countdown timer
     private val _timerSeconds = MutableLiveData<Int>()
     val timerSeconds: LiveData<Int> = _timerSeconds
 
@@ -56,7 +53,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
     private var examTimeLimitSeconds = 0
     private var activeSessionId = -1L
 
-    // ── Setup ─────────────────────────────────────────────────────────────────
 
     fun init(
         type: SessionType,
@@ -67,7 +63,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
     ) {
         sessionType = type
         viewModelScope.launch {
-            // Wait for seeding to complete before querying
             (getApplication<ExamForgeApp>()).seedingComplete.first { it }
             val questionList = when (type) {
                 SessionType.LERNFELD ->
@@ -77,7 +72,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
                 SessionType.QUICK_QUIZ ->
                     repo.getRandomQuestions(fachrichtung, 10).shuffled()
                 SessionType.BOOKMARK_REVIEW ->
-                    emptyList() // populated via bookmark flow
+                    emptyList() 
             }
 
             if (questionList.isEmpty()) return@launch
@@ -87,7 +82,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             _currentQuestion.postValue(questionList.firstOrNull())
             questionStartTime = System.currentTimeMillis()
 
-            // Create session
             val session = Session(
                 sessionType = type,
                 fachrichtung = fachrichtung,
@@ -98,9 +92,8 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             activeSessionId = repo.startSession(session)
             _sessionId.postValue(activeSessionId)
 
-            // Start exam timer if needed
             if (type == SessionType.EXAM_SIMULATION) {
-                examTimeLimitSeconds = 90 * 60 // 90 minutes
+                examTimeLimitSeconds = 90 * 60 
                 startTimer()
             }
         }
@@ -113,11 +106,9 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         val current = _selectedIndices.value?.toMutableSet() ?: mutableSetOf()
         val question = _currentQuestion.value ?: return
         if (question.correctAnswerIndices.size == 1) {
-            // Single choice: only one can be selected
             current.clear()
             current.add(index)
         } else {
-            // Multiple choice: toggle
             if (current.contains(index)) current.remove(index) else current.add(index)
         }
         _selectedIndices.value = current
@@ -190,7 +181,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
                 Session(
                     id = activeSessionId,
                     sessionType = sessionType,
-                    fachrichtung = Fachrichtung.SI, // replace with actual
+                    fachrichtung = Fachrichtung.SI, 
                     totalQuestions = _questions.value?.size ?: 0,
                     correctAnswers = correctCount,
                     durationSeconds = totalDuration,
@@ -232,8 +223,6 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             }.filterNotNull()
         )
     }
-
-    // ── Timer (Exam Mode) ─────────────────────────────────────────────────────
 
     private fun startTimer() {
         _timerSeconds.value = examTimeLimitSeconds

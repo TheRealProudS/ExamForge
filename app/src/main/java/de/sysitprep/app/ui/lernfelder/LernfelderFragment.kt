@@ -35,7 +35,6 @@ class LernfelderFragment : Fragment() {
 
     private fun setupRecyclerView() {
         adapter = LernfelderAdapter { item ->
-            // Navigate to quiz with this Lernfeld
             findNavController().navigate(
                 R.id.quizFragment,
                 Bundle().apply {

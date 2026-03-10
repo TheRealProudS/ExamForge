@@ -31,7 +31,7 @@ class ExamFragment : Fragment() {
                 title = getString(R.string.exam_ap1_title),
                 message = getString(R.string.exam_confirm_message, "AP1", "90 Minuten"),
                 examType = ExamType.AP1,
-                fachrichtung = Fachrichtung.SI // AP1 is gemeinsam, fachrichtung doesn't matter
+                fachrichtung = Fachrichtung.SI
             )
         }
 

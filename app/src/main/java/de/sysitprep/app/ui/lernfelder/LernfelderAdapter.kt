@@ -20,7 +20,6 @@ class LernfelderAdapter(
             val lf = item.lernfeld
             val fachrichtung = item.fachrichtung
 
-            // LF Number badge
             binding.tvLfNumber.text = "LF${lf.number}"
             val bgColor = when (fachrichtung) {
                 Fachrichtung.SI -> binding.root.context.getColor(R.color.lf_si)
@@ -29,7 +28,6 @@ class LernfelderAdapter(
             }
             binding.tvLfNumber.background.setTint(bgColor)
 
-            // Fachrichtung badge
             binding.tvFachrichtungBadge.text = when {
                 lf.fachrichtungen.contains(Fachrichtung.GEMEINSAM) -> "Gemeinsam"
                 lf.fachrichtungen.contains(Fachrichtung.SI) -> "SI"
@@ -38,12 +36,10 @@ class LernfelderAdapter(
             }
             binding.tvFachrichtungBadge.background.setTint(bgColor)
 
-            // Content
             binding.tvTitle.text = lf.title
             binding.tvDescription.text = lf.description
             binding.tvQuestionCount.text = "${item.questionCount} Fragen"
 
-            // Progress
             binding.progressBar.progress = item.progress
             binding.tvProgressPercent.text = "${item.progress}%"
 

@@ -31,8 +31,6 @@ class QuestionRepository(private val context: Context) {
     private val questionDao = db.questionDao()
     private val sessionDao = db.sessionDao()
 
-    // ── Question access ──────────────────────────────────────────────────────
-
     suspend fun getQuestionsForLernfeld(lernfeld: Int, fachrichtung: Fachrichtung, limit: Int = 20): List<Question> =
         withContext(Dispatchers.IO) { questionDao.getByLernfeldAndFachrichtung(lernfeld, fachrichtung, limit) }
 
@@ -49,8 +47,6 @@ class QuestionRepository(private val context: Context) {
 
     suspend fun getTotalQuestionCount(): Int =
         withContext(Dispatchers.IO) { questionDao.countAll() }
-
-    // ── Sessions ─────────────────────────────────────────────────────────────
 
     suspend fun startSession(session: Session): Long =
         withContext(Dispatchers.IO) { sessionDao.insertSession(session) }
@@ -113,7 +109,6 @@ class QuestionRepository(private val context: Context) {
         sessionDao.deleteAllSessions()
     }
 
-    // ── DataStore Preferences ─────────────────────────────────────────────────
 
     private object PrefKeys {
         val FACHRICHTUNG = stringPreferencesKey("fachrichtung")
@@ -142,10 +137,7 @@ class QuestionRepository(private val context: Context) {
         context.dataStore.edit { it[PrefKeys.SOUND_ENABLED] = enabled }
     }
 
-    // ── Seeding ───────────────────────────────────────────────────────────────
-    /**
-     * Seeds questions from bundled JSON assets if the database is empty.
-     */
+
     suspend fun seedIfEmpty() = withContext(Dispatchers.IO) {
         val storedVersion = context.dataStore.data.first()[PrefKeys.SEED_VERSION]
         val count = questionDao.countAll()
@@ -158,7 +150,6 @@ class QuestionRepository(private val context: Context) {
     }
 
     companion object {
-        // Bump this whenever question data changes to force a full re-seed
         private const val SEED_VERSION = "4"
     }
 
@@ -179,14 +170,11 @@ class QuestionRepository(private val context: Context) {
                     } catch (_: Exception) { /* skip single malformed question */ }
                 }
             } catch (e: Exception) {
-                // Skip malformed files silently; log in production
             }
         }
         return result
     }
 }
-
-// ── JSON transfer object ──────────────────────────────────────────────────────
 
 data class QuestionJson(
     val key: String?,

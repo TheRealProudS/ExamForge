@@ -60,7 +60,6 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        // Quick Quiz
         binding.cardQuickQuiz.setOnClickListener {
             findNavController().navigate(
                 R.id.quizFragment,
@@ -73,12 +72,10 @@ class HomeFragment : Fragment() {
             )
         }
 
-        // Exam Simulation
         binding.cardExamSimulation.setOnClickListener {
             findNavController().navigate(R.id.examFragment)
         }
 
-        // Bookmarks
         binding.cardBookmarks.setOnClickListener {
             findNavController().navigate(
                 R.id.quizFragment,
