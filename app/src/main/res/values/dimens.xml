@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Answer options -->
+    <dimen name="option_spacing">10dp</dimen>
+    <dimen name="option_corner_radius">14dp</dimen>
+    <dimen name="option_padding_h">20dp</dimen>
+    <dimen name="option_padding_v">16dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <!-- Bottom nav -->
+    <dimen name="bottom_nav_height">80dp</dimen>
+
+    <!-- LF number badge -->
+    <dimen name="lf_badge_size">44dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_h1">24sp</dimen>
+    <dimen name="text_h2">20sp</dimen>
+    <dimen name="text_h3">16sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+</resources>

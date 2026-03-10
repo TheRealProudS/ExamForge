@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="border_light">#2A3050</color>
+    <color name="divider">#2A3050</color>
+    <color name="shimmer_base">#252A40</color>
+    <color name="shimmer_highlight">#2E344F</color>
+    <color name="surface_card">#1E2235</color>
+    <color name="surface_overlay">#252A40</color>
+    <color name="surface_primary">#0F1117</color>
+    <color name="surface_secondary">#1A1E2E</color>
+    <color name="text_hint">#5C6478</color>
+    <color name="text_primary">#ECEFF4</color>
+    <color name="text_secondary">#9BA3B8</color>
+</resources>

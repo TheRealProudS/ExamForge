@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="de.sysitprep.app.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/lernfelderFragment"
+        android:name="de.sysitprep.app.ui.lernfelder.LernfelderFragment"
+        android:label="Lernfelder"
+        tools:layout="@layout/fragment_lernfelder" />
+
+    <fragment
+        android:id="@+id/lernfeldDetailFragment"
+        android:name="de.sysitprep.app.ui.lernfelder.LernfeldDetailFragment"
+        android:label="Lernfeld Detail"
+        tools:layout="@layout/fragment_lernfeld_detail">
+        <argument
+            android:name="lernfeldNumber"
+            app:argType="integer" />
+        <argument
+            android:name="fachrichtung"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="de.sysitprep.app.ui.quiz.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz">
+        <argument
+            android:name="sessionType"
+            app:argType="string" />
+        <argument
+            android:name="lernfeld"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="fachrichtung"
+            app:argType="string" />
+        <argument
+            android:name="examType"
+            android:defaultValue="AP1"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="de.sysitprep.app.ui.exam.ExamFragment"
+        android:label="Prüfungssimulation"
+        tools:layout="@layout/fragment_exam" />
+
+    <fragment
+        android:id="@+id/examSimulationFragment"
+        android:name="de.sysitprep.app.ui.exam.ExamSimulationFragment"
+        android:label="Prüfung läuft"
+        tools:layout="@layout/fragment_quiz">
+        <argument
+            android:name="sessionType"
+            app:argType="string" />
+        <argument
+            android:name="lernfeld"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="fachrichtung"
+            app:argType="string" />
+        <argument
+            android:name="examType"
+            android:defaultValue="AP1"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="de.sysitprep.app.ui.quiz.ResultFragment"
+        android:label="Ergebnis"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="sessionId"
+            app:argType="long" />
+        <argument
+            android:name="sessionType"
+            android:defaultValue="QUICK_QUIZ"
+            app:argType="string" />
+        <argument
+            android:name="lernfeld"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <argument
+            android:name="fachrichtung"
+            android:defaultValue="SI"
+            app:argType="string" />
+        <argument
+            android:name="examType"
+            android:defaultValue="AP1"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="de.sysitprep.app.ui.stats.StatsFragment"
+        android:label="Statistiken"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.sysitprep.app.ui.settings.SettingsFragment"
+        android:label="Einstellungen"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

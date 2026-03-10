@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ExamForge App Icon Foreground
+  Replace with app_icon.png by placing it in res/drawable/ and updating
+  mipmap-anydpi-v26/ic_launcher.xml to reference @drawable/app_icon
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded rect background (adaptive icon safe zone: 72dp centered) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M18,18 L90,18 L90,90 L18,90 Z" />
+
+    <!-- E letter – vertical -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,32 L32,32 L32,76 L26,76 Z" />
+    <!-- E top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,32 L56,32 L56,38 L32,38 Z" />
+    <!-- E mid -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,51 L52,51 L52,57 L32,57 Z" />
+    <!-- E bot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,70 L56,70 L56,76 L32,76 Z" />
+
+    <!-- F letter – vertical -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M62,32 L68,32 L68,76 L62,76 Z" />
+    <!-- F top -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M68,32 L86,32 L86,38 L68,38 Z" />
+    <!-- F mid -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M68,51 L82,51 L82,57 L68,57 Z" />
+
+    <!-- Forge spark accent -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M50,82 A4,4 0 1,1 49.99,82 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M56,88 A3,3 0 1,1 55.99,88 Z" />
+
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/lernfelderFragment"
+        android:icon="@drawable/ic_nav_learn"
+        android:title="@string/nav_lernfelder" />
+    <item
+        android:id="@+id/examFragment"
+        android:icon="@drawable/ic_nav_exam"
+        android:title="@string/nav_pruefung" />
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/ic_nav_stats"
+        android:title="@string/nav_statistiken" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="@string/nav_einstellungen" />
+</menu>

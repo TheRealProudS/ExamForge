@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="nav_item_colors">
+        <item>@color/text_secondary</item>
+        <item>@color/brand_primary</item>
+    </integer-array>
+
+    <attr name="colorSurfaceCard" format="color" />
+</resources>

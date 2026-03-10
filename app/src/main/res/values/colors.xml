@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="brand_primary">#1565C0</color>
+    <color name="brand_primary_dark">#0D47A1</color>
+    <color name="brand_primary_light">#42A5F5</color>
+    <color name="brand_secondary">#00BCD4</color>
+    <color name="brand_accent">#FF6F00</color>
+
+    <!-- Semantic Colors -->
+    <color name="color_correct">#2E7D32</color>
+    <color name="color_correct_light">#E8F5E9</color>
+    <color name="color_wrong">#C62828</color>
+    <color name="color_wrong_light">#FFEBEE</color>
+    <color name="color_neutral">#F57F17</color>
+    <color name="color_neutral_light">#FFFDE7</color>
+
+    <!-- Surface Colors (Light Mode) -->
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="surface_secondary">#F5F7FA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_overlay">#F0F4FF</color>
+
+    <!-- Text Colors (Light Mode) -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#B0BEC5</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Lernfeld Colors (by category) -->
+    <color name="lf_gemeinsam">#1565C0</color>
+    <color name="lf_si">#00695C</color>
+    <color name="lf_ae">#6A1B9A</color>
+
+    <!-- Difficulty Colors -->
+    <color name="difficulty_easy">#2E7D32</color>
+    <color name="difficulty_medium">#F57F17</color>
+    <color name="difficulty_hard">#C62828</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_1">#1565C0</color>
+    <color name="chart_2">#00BCD4</color>
+    <color name="chart_3">#FF6F00</color>
+    <color name="chart_4">#2E7D32</color>
+    <color name="chart_5">#6A1B9A</color>
+
+    <!-- Divider and Border -->
+    <color name="divider">#E0E6ED</color>
+    <color name="border_light">#E8ECF4</color>
+
+    <!-- Shimmer Loading -->
+    <color name="shimmer_base">#E8ECF4</color>
+    <color name="shimmer_highlight">#F5F7FA</color>
+
+    <!-- Streak Colors -->
+    <color name="streak_active">#FF6F00</color>
+    <color name="streak_inactive">#E0E0E0</color>
+</resources>

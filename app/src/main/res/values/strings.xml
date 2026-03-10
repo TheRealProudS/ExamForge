@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamForge</string>
+    <string name="app_tagline">IHK Prüfungsvorbereitung Fachinformatiker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_lernfelder">Lernfelder</string>
+    <string name="nav_pruefung">Prüfung</string>
+    <string name="nav_statistiken">Statistiken</string>
+    <string name="nav_einstellungen">Einstellungen</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting_morning">Guten Morgen!</string>
+    <string name="home_greeting_afternoon">Guten Nachmittag!</string>
+    <string name="home_greeting_evening">Guten Abend!</string>
+    <string name="home_subtitle">Bereit für die IHK-Prüfung?</string>
+    <string name="home_quick_quiz">Schnell-Quiz</string>
+    <string name="home_quick_quiz_desc">10 zufällige Fragen</string>
+    <string name="home_continue">Weiter lernen</string>
+    <string name="home_streak">Lern-Streak</string>
+    <string name="home_streak_days">%d Tage</string>
+    <string name="home_total_answered">Beantwortet</string>
+    <string name="home_accuracy">Trefferquote</string>
+    <string name="home_today_goal">Heute geschafft</string>
+
+    <!-- Fachrichtung Selection -->
+    <string name="select_fachrichtung">Fachrichtung wählen</string>
+    <string name="fachrichtung_si">Systemintegration</string>
+    <string name="fachrichtung_ae">Anwendungsentwicklung</string>
+    <string name="fachrichtung_both">Beide Fachrichtungen</string>
+
+    <!-- Lernfelder Screen -->
+    <string name="lernfelder_title">Lernfelder</string>
+    <string name="lernfelder_subtitle">Wähle ein Lernfeld zum gezielten Üben</string>
+    <string name="lernfeld_questions_count">%d Fragen</string>
+    <string name="lernfeld_progress">%d%% gelernt</string>
+    <string name="lernfeld_start">Training starten</string>
+    <string name="lernfeld_start_training">Training starten</string>
+    <string name="lernfeld_gemeinsam">Gemeinsam</string>
+    <string name="lernfelder_ap1">AP1 – Abschlussprüfung Teil 1</string>
+    <string name="lernfelder_ap2">AP2 – Abschlussprüfung Teil 2</string>
+
+    <!-- Quiz Screen -->
+    <string name="quiz_question_counter" formatted="false">Frage %d von %d</string>
+    <string name="quiz_check_answer">Antwort prüfen</string>
+    <string name="quiz_next">Weiter</string>
+    <string name="quiz_finish">Abschließen</string>
+    <string name="quiz_skip">Überspringen</string>
+    <string name="quiz_hint_multiple">Mehrere Antworten möglich</string>
+    <string name="quiz_hint_single">Genau eine Antwort korrekt</string>
+    <string name="quiz_bookmark">Lesezeichen</string>
+    <string name="quiz_correct">Richtig!</string>
+    <string name="quiz_wrong">Leider falsch!</string>
+    <string name="quiz_explanation">Erklärung</string>
+    <string name="quiz_time">Zeit</string>
+    <string name="quiz_difficulty_easy">Leicht</string>
+    <string name="quiz_difficulty_medium">Mittel</string>
+    <string name="quiz_difficulty_hard">Schwer</string>
+
+    <!-- Exam Simulation -->
+    <string name="exam_title">Prüfungssimulation</string>
+    <string name="exam_subtitle">Originalgetreue IHK-Prüfungsbedingungen</string>
+    <string name="exam_ap1_title">AP1 – Abschlussprüfung Teil 1</string>
+    <string name="exam_ap2_si_title">AP2 – Systemintegration</string>
+    <string name="exam_ap2_ae_title">AP2 – Anwendungsentwicklung</string>
+    <string name="exam_ap1">AP1 – Teil 1 (90 Min, 40 Fragen)</string>
+    <string name="exam_ap2_si">AP2 Systemintegration (90 Min, 40 Fragen)</string>
+    <string name="exam_ap2_ae">AP2 Anwendungsentwicklung (90 Min, 40 Fragen)</string>
+    <string name="exam_confirm_message">Du startest jetzt eine %1$s-Prüfungssimulation mit einer Dauer von %2$s. Bist du bereit?</string>
+    <string name="exam_start_now">Jetzt starten</string>
+    <string name="exam_start_confirm_title">Prüfung starten?</string>
+    <string name="exam_start_confirm_msg" formatted="false">Du startest jetzt eine %s unter Prüfungsbedingungen (%d Minuten). Ablenkungen werden minimiert.</string>
+    <string name="exam_start">Prüfung starten</string>
+    <string name="exam_abort_confirm">Prüfung wirklich abbrechen?</string>
+    <string name="exam_abort_yes">Ja, abbrechen</string>
+    <string name="exam_abort_no">Nein, weiter</string>
+    <string name="exam_time_remaining">Verbleibende Zeit</string>
+    <string name="exam_time_warning">⚠ Noch 10 Minuten!</string>
+    <string name="exam_passed">Bestanden! 🎉</string>
+    <string name="exam_failed">Nicht bestanden</string>
+    <string name="exam_passing_score">Bestehensgrenze: %d%%</string>
+
+    <!-- Result Screen -->
+    <string name="result_title">Ergebnis</string>
+    <string name="result_score">%d%%</string>
+    <string name="result_passed">Bestanden! 🎉</string>
+    <string name="result_failed">Nicht bestanden</string>
+    <string name="result_correct">Richtig: %d</string>
+    <string name="result_wrong">Falsch: %d</string>
+    <string name="result_skipped">Übersprungen: %d</string>
+    <string name="result_time">Zeit: %s</string>
+    <string name="result_retry">Nochmal versuchen</string>
+    <string name="result_review">Antworten durchsehen</string>
+    <string name="result_home">Zum Hauptmenü</string>
+    <string name="result_share">Ergebnis teilen</string>
+
+    <!-- Statistics Screen -->
+    <string name="stats_title">Statistiken</string>
+    <string name="stats_total_questions">Fragen beantwortet</string>
+    <string name="stats_accuracy">Gesamte Trefferquote</string>
+    <string name="stats_study_time">Lernzeit gesamt</string>
+    <string name="stats_sessions">Lernsitzungen</string>
+    <string name="stats_by_lernfeld">Fortschritt nach Lernfeld</string>
+    <string name="stats_recent_sessions">Letzte Sitzungen</string>
+    <string name="stats_no_data">Noch keine Daten vorhanden. Starte deine erste Lernsession!</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_fachrichtung">Meine Fachrichtung</string>
+    <string name="settings_fachrichtung_desc">Wähle deinen Ausbildungsschwerpunkt</string>
+    <string name="settings_dark_mode">Dunkles Design</string>
+    <string name="settings_dark_mode_desc">App im Dark Mode anzeigen</string>
+    <string name="settings_notifications">Lern-Erinnerungen</string>
+    <string name="settings_notifications_desc">Täglich an das Lernen erinnern</string>
+    <string name="settings_sound">Ton-Effekte</string>
+    <string name="settings_sound_desc">Akustisches Feedback bei Antworten</string>
+    <string name="settings_reset_progress">Fortschritt zurücksetzen</string>
+    <string name="settings_reset_title">Fortschritt löschen?</string>
+    <string name="settings_reset_message">Alle Lernfortschritte und Statistiken werden unwiderruflich gelöscht.</string>
+    <string name="settings_reset_confirm">Löschen</string>
+    <string name="settings_version">Version</string>
+
+    <!-- Common -->
+    <string name="cancel">Abbrechen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="ok">OK</string>
+    <string name="back">Zurück</string>
+    <string name="loading">Laden…</string>
+    <string name="error_no_questions">Keine Fragen verfügbar</string>
+</resources>

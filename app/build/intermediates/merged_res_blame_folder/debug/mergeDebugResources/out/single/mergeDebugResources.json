@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_item_session.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\item_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_nav_stats.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_nav_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_option_selected.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_option_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_icon_circle_white.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_icon_circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_progress_bar_lernfeld.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\progress_bar_lernfeld.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_score_circle.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_score_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_bookmark_outline.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_bookmark_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_bookmark_filled.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_bookmark_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_badge_outline.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_badge_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_lf_number.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_lf_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_exam.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_badge_difficulty.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_badge_difficulty.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\anim_splash_exit.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\anim\\splash_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\anim_splash_logo_in.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\anim\\splash_logo_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_nav_settings.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_nav_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_badge_gemeinsam.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_badge_gemeinsam.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_nav_learn.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_nav_learn.xml"
+    },
+    {
+        "merged": "de.sysitprep.app-debug-60:/layout_fragment_quiz.xml.flat",
+        "source": "de.sysitprep.app-main-62:/layout/fragment_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_result.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_nav_item_color.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_item_lernfeld_progress.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\item_lernfeld_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_icon_circle_primary.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_icon_circle_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_item_lernfeld.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\item_lernfeld.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_badge_accent.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_badge_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_lernfeld_detail.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_lernfeld_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_lernfelder.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_lernfelder.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_nav_exam.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_nav_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\anim_splash_text_in.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\anim\\splash_text_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_bg_option_unselected.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\bg_option_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_splash_logo.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_splash_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_stats.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_progress_bar_quiz.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\progress_bar_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-debug-60:\\layout_fragment_quiz.xml.flat",
+        "source": "C:\\Users\\czenk\\.gradle\\daemon\\8.6\\de.sysitprep.app-main-62:\\layout\\fragment_quiz.xml"
+    }
+]
