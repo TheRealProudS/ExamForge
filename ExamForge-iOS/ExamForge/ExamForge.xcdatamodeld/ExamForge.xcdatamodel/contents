@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="QuestionEntity" representedClassName="QuestionEntity" syncable="YES" codeGenerationType="none">
+        <attribute name="dbId"                        attributeType="Integer 64"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="questionKey"                 attributeType="String"      defaultValueString=""/>
+        <attribute name="title"                       attributeType="String"      defaultValueString=""/>
+        <attribute name="questionText"                attributeType="String"      defaultValueString=""/>
+        <attribute name="optionsJSON"                 attributeType="String"      defaultValueString="[]"/>
+        <attribute name="correctAnswerIndicesJSON"    attributeType="String"      defaultValueString="[]"/>
+        <attribute name="explanation"                 attributeType="String"      defaultValueString=""/>
+        <attribute name="lernfeld"                    attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="fachrichtung"                attributeType="String"      defaultValueString="GEMEINSAM"/>
+        <attribute name="examType"                    attributeType="String"      defaultValueString="AP1"/>
+        <attribute name="year"                        attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="difficulty"                  attributeType="Integer 32"  defaultValueString="1"       usesScalarValueType="YES"/>
+        <attribute name="isBookmarked"                attributeType="Boolean"     defaultValueString="NO"      usesScalarValueType="YES"/>
+        <attribute name="createdAt"                   attributeType="Date"                                     usesScalarValueType="NO"/>
+    </entity>
+    <entity name="SessionEntity" representedClassName="SessionEntity" syncable="YES" codeGenerationType="none">
+        <attribute name="dbId"                        attributeType="Integer 64"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="sessionType"                 attributeType="String"      defaultValueString="QUICK_QUIZ"/>
+        <attribute name="fachrichtung"                attributeType="String"      defaultValueString="SI"/>
+        <attribute name="examTypeStr"    optional="YES" attributeType="String"/>
+        <attribute name="lernfeldNum"    optional="YES" attributeType="Integer 32" usesScalarValueType="NO"/>
+        <attribute name="totalQuestions"              attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="correctAnswers"              attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="durationSeconds"             attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="completedAt"    optional="YES" attributeType="Date"                                   usesScalarValueType="NO"/>
+        <attribute name="startedAt"                   attributeType="Date"                                     usesScalarValueType="NO"/>
+        <attribute name="questionIdsJSON"             attributeType="String"      defaultValueString="[]"/>
+    </entity>
+    <entity name="UserAnswerEntity" representedClassName="UserAnswerEntity" syncable="YES" codeGenerationType="none">
+        <attribute name="dbId"                        attributeType="Integer 64"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="sessionId"                   attributeType="Integer 64"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="questionId"                  attributeType="Integer 64"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="selectedIndicesJSON"         attributeType="String"      defaultValueString="[]"/>
+        <attribute name="isCorrect"                   attributeType="Boolean"     defaultValueString="NO"      usesScalarValueType="YES"/>
+        <attribute name="timeSpentSeconds"            attributeType="Integer 32"  defaultValueString="0"       usesScalarValueType="YES"/>
+        <attribute name="answeredAt"                  attributeType="Date"                                     usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="QuestionEntity"    representedClassName="QuestionEntity"    positionX="-63"  positionY="-18" width="128" height="254"/>
+        <element name="SessionEntity"     representedClassName="SessionEntity"     positionX="100"  positionY="-18" width="128" height="224"/>
+        <element name="UserAnswerEntity"  representedClassName="UserAnswerEntity"  positionX="263"  positionY="-18" width="128" height="179"/>
+    </elements>
+</model>

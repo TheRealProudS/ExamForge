@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		/* Swift Sources */
+		A001 /* ExamForgeApp.swift */                    = {isa = PBXBuildFile; fileRef = B001; };
+		A002 /* Models/Question.swift */                 = {isa = PBXBuildFile; fileRef = B002; };
+		A003 /* Models/Session.swift */                  = {isa = PBXBuildFile; fileRef = B003; };
+		A004 /* Models/Lernfeld.swift */                 = {isa = PBXBuildFile; fileRef = B004; };
+		A005 /* Models/Stats.swift */                    = {isa = PBXBuildFile; fileRef = B005; };
+		A006 /* Persistence/PersistenceController.swift */ = {isa = PBXBuildFile; fileRef = B006; };
+		A007 /* Repository/AppPreferences.swift */       = {isa = PBXBuildFile; fileRef = B007; };
+		A008 /* Repository/QuestionRepository.swift */   = {isa = PBXBuildFile; fileRef = B008; };
+		A009 /* ViewModels/HomeViewModel.swift */        = {isa = PBXBuildFile; fileRef = B009; };
+		A010 /* ViewModels/LernfelderViewModel.swift */  = {isa = PBXBuildFile; fileRef = B010; };
+		A011 /* ViewModels/QuizViewModel.swift */        = {isa = PBXBuildFile; fileRef = B011; };
+		A012 /* ViewModels/ResultViewModel.swift */      = {isa = PBXBuildFile; fileRef = B012; };
+		A013 /* ViewModels/StatsViewModel.swift */       = {isa = PBXBuildFile; fileRef = B013; };
+		A014 /* ViewModels/SettingsViewModel.swift */    = {isa = PBXBuildFile; fileRef = B014; };
+		A015 /* Views/AppRouter.swift */                 = {isa = PBXBuildFile; fileRef = B015; };
+		A016 /* Views/SplashView.swift */                = {isa = PBXBuildFile; fileRef = B016; };
+		A017 /* Views/MainTabView.swift */               = {isa = PBXBuildFile; fileRef = B017; };
+		A018 /* Views/Home/HomeView.swift */             = {isa = PBXBuildFile; fileRef = B018; };
+		A019 /* Views/Lernfelder/LernfelderView.swift */ = {isa = PBXBuildFile; fileRef = B019; };
+		A020 /* Views/Lernfelder/LernfeldDetailView.swift */ = {isa = PBXBuildFile; fileRef = B020; };
+		A021 /* Views/Quiz/QuizView.swift */             = {isa = PBXBuildFile; fileRef = B021; };
+		A022 /* Views/Exam/ExamView.swift */             = {isa = PBXBuildFile; fileRef = B022; };
+		A023 /* Views/Result/ResultView.swift */         = {isa = PBXBuildFile; fileRef = B023; };
+		A024 /* Views/Stats/StatsView.swift */           = {isa = PBXBuildFile; fileRef = B024; };
+		A025 /* Views/Settings/SettingsView.swift */     = {isa = PBXBuildFile; fileRef = B025; };
+		/* Core Data Model */
+		A026 /* ExamForge.xcdatamodeld */                = {isa = PBXBuildFile; fileRef = B026; };
+		/* Resources */
+		A027 /* Assets.xcassets */                       = {isa = PBXBuildFile; fileRef = B027; };
+		A028 /* questions/lf_gemeinsam_ap1.json */       = {isa = PBXBuildFile; fileRef = B028; };
+		A029 /* questions/lf_si_ap2.json */              = {isa = PBXBuildFile; fileRef = B029; };
+		A030 /* questions/lf_ae_ap2.json */              = {isa = PBXBuildFile; fileRef = B030; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001 /* ExamForgeApp.swift */                    = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamForgeApp.swift; sourceTree = "<group>"; };
+		B002 /* Models/Question.swift */                 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B003 /* Models/Session.swift */                  = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B004 /* Models/Lernfeld.swift */                 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lernfeld.swift; sourceTree = "<group>"; };
+		B005 /* Models/Stats.swift */                    = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		B006 /* Persistence/PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		B007 /* Repository/AppPreferences.swift */       = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		B008 /* Repository/QuestionRepository.swift */   = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
+		B009 /* ViewModels/HomeViewModel.swift */        = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B010 /* ViewModels/LernfelderViewModel.swift */  = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LernfelderViewModel.swift; sourceTree = "<group>"; };
+		B011 /* ViewModels/QuizViewModel.swift */        = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		B012 /* ViewModels/ResultViewModel.swift */      = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		B013 /* ViewModels/StatsViewModel.swift */       = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		B014 /* ViewModels/SettingsViewModel.swift */    = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B015 /* Views/AppRouter.swift */                 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		B016 /* Views/SplashView.swift */                = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B017 /* Views/MainTabView.swift */               = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B018 /* Views/Home/HomeView.swift */             = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B019 /* Views/Lernfelder/LernfelderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LernfelderView.swift; sourceTree = "<group>"; };
+		B020 /* Views/Lernfelder/LernfeldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LernfeldDetailView.swift; sourceTree = "<group>"; };
+		B021 /* Views/Quiz/QuizView.swift */             = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		B022 /* Views/Exam/ExamView.swift */             = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		B023 /* Views/Result/ResultView.swift */         = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B024 /* Views/Stats/StatsView.swift */           = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B025 /* Views/Settings/SettingsView.swift */     = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B026 /* ExamForge.xcdatamodeld */                = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExamForge.xcdatamodeld; sourceTree = "<group>"; };
+		B027 /* Assets.xcassets */                       = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B028 /* lf_gemeinsam_ap1.json */                 = {isa = PBXFileReference; lastKnownFileType = text.json; path = lf_gemeinsam_ap1.json; sourceTree = "<group>"; };
+		B029 /* lf_si_ap2.json */                        = {isa = PBXFileReference; lastKnownFileType = text.json; path = lf_si_ap2.json; sourceTree = "<group>"; };
+		B030 /* lf_ae_ap2.json */                        = {isa = PBXFileReference; lastKnownFileType = text.json; path = lf_ae_ap2.json; sourceTree = "<group>"; };
+		PRODREF /* ExamForge.app */                      = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		INFOPLIST /* Info.plist */                        = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FWKPHASE = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		MAINGROUP = {
+			isa = PBXGroup;
+			children = (
+				EFGROUP,
+				PRODGROUP,
+			);
+			sourceTree = "<group>";
+		};
+		PRODGROUP = {
+			isa = PBXGroup;
+			children = (
+				PRODREF,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFGROUP = {
+			isa = PBXGroup;
+			children = (
+				B001, /* ExamForgeApp.swift */
+				INFOPLIST,
+				B027, /* Assets.xcassets */
+				B026, /* ExamForge.xcdatamodeld */
+				MODELSGROUP,
+				PERSISTGROUP,
+				REPOGROUP,
+				VMGROUP,
+				VIEWSGROUP,
+				RESGROUP,
+			);
+			path = ExamForge;
+			sourceTree = "<group>";
+		};
+		MODELSGROUP = {
+			isa = PBXGroup;
+			children = (B002, B003, B004, B005);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		PERSISTGROUP = {
+			isa = PBXGroup;
+			children = (B006);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		REPOGROUP = {
+			isa = PBXGroup;
+			children = (B007, B008);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		VMGROUP = {
+			isa = PBXGroup;
+			children = (B009, B010, B011, B012, B013, B014);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		VIEWSGROUP = {
+			isa = PBXGroup;
+			children = (B015, B016, B017, HOMEGROUP, LFGROUP, QUIZGROUP, EXAMGROUP, RESULTGROUP, STATSGROUP, SETTINGSGROUP);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		HOMEGROUP     = {isa = PBXGroup; children = (B018); path = Home;         sourceTree = "<group>"; };
+		LFGROUP       = {isa = PBXGroup; children = (B019, B020); path = Lernfelder; sourceTree = "<group>"; };
+		QUIZGROUP     = {isa = PBXGroup; children = (B021); path = Quiz;         sourceTree = "<group>"; };
+		EXAMGROUP     = {isa = PBXGroup; children = (B022); path = Exam;         sourceTree = "<group>"; };
+		RESULTGROUP   = {isa = PBXGroup; children = (B023); path = Result;       sourceTree = "<group>"; };
+		STATSGROUP    = {isa = PBXGroup; children = (B024); path = Stats;        sourceTree = "<group>"; };
+		SETTINGSGROUP = {isa = PBXGroup; children = (B025); path = Settings;     sourceTree = "<group>"; };
+		RESGROUP = {
+			isa = PBXGroup;
+			children = (B028, B029, B030);
+			path = questions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFGLIST;
+			buildPhases = (SRCPHASE, RESPHASE, FWKPHASE);
+			buildRules = ();
+			dependencies = ();
+			name = ExamForge;
+			productName = ExamForge;
+			productReference = PRODREF;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TARGET = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = PROJCFGLIST;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (de, en, Base);
+			mainGroup = MAINGROUP;
+			productRefGroup = PRODGROUP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (TARGET);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RESPHASE = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026, /* ExamForge.xcdatamodeld */
+				A027, /* Assets.xcassets */
+				A028, /* lf_gemeinsam_ap1.json */
+				A029, /* lf_si_ap2.json */
+				A030, /* lf_ae_ap2.json */
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRCPHASE = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001, A002, A003, A004, A005,
+				A006, A007, A008,
+				A009, A010, A011, A012, A013, A014,
+				A015, A016, A017, A018, A019, A020,
+				A021, A022, A023, A024, A025,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEBUGCFG = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		RELEASECFG = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		TARGETDEBUGCFG = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ExamForge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sysitprep.examforge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		TARGETRELEASECFG = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ExamForge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sysitprep.examforge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PROJCFGLIST = {
+			isa = XCConfigurationList;
+			buildConfigurations = (DEBUGCFG, RELEASECFG);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFGLIST = {
+			isa = XCConfigurationList;
+			buildConfigurations = (TARGETDEBUGCFG, TARGETRELEASECFG);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = PROJECT;
+}
